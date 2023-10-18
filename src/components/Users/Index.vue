@@ -6,7 +6,7 @@
       <div>id: {{ user.id }}</div>
       <div>ชืEอ-นามสกุล: {{ user.name }} - {{ user.lastname }}</div>
       <div>email: {{ user.email }}</div>
-      <div>password: {{ user.password }}</div>
+      <div>power_input: {{ user.password }}</div>
       <p>
         <button v-on:click="navigateTo('/user/' + user.id)">
           ดูข้อมูลผู้ใช้
